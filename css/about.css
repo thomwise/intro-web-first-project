@@ -1,0 +1,44 @@
+/*========HERO2 SECTION========*/
+#hero2 {
+    height: 500px;
+    background-image: url("../img/Canyon.jpg");
+    background-position: center;
+    background-size: 200% 200%;
+    margin-top: 50px;
+}
+
+#hero2 h1 {
+    padding-top: 100px;
+    padding-left: 250px;
+    font-family: fantasy;
+}
+
+/*=========COLUMNS SECTION=========*/
+.column {
+    float: left;
+    width: 33%;
+    padding: 2px;
+}
+
+.column h3 {
+    text-align: center;
+    background-color: rgba(227, 0, 11, .6);
+    color: #fff;
+    font-weight: 600;
+}
+
+.column>p {
+    text-align: justify;
+}
+
+button {
+    background-color: #BE9640;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.column button {
+    display: block;
+    margin: 0 auto;
+}

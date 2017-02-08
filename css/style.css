@@ -1,0 +1,250 @@
+/*=====UNIVERSALS=====*/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Farsan');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/Zion.jpg");
+    box-sizing: border-box;
+}
+
+.red-background {
+    background-color: #e40007;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.clear-right{
+    clear: right;
+}
+
+.clear-left{
+    clear:left;
+}
+
+.half {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.white-background {
+    background-color: rgba(255,255,255,.7);
+}
+
+aside, main {
+    height: 599px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: rgba(227, 0, 11, .6);
+}
+
+/*=====HEADER=====*/
+
+header {
+    padding: 30px 30px;
+    height: 58px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 4;
+}
+
+span h1 {
+    float: left;
+    font-family: 'farsan';
+    font-size: 65px;
+    letter-spacing: 5px;
+    line-height: 10%;
+}
+
+ul {
+    padding: 30px;
+    list-style-type: none;
+    
+    margin: 0;
+}
+
+li {
+    margin: 0 15px;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+    cursor: crosshair;
+}
+
+header>ul>li {
+    border-radius: 15px 15px 0 0;
+    background-color: #000;
+    padding: 20px;
+    cursor: crosshair;
+}
+
+.pop:hover {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+/*===========HERO SECTION============*/
+#hero {
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/Zion2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 10px solid #fff;
+}
+
+#hero>h1 {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    top: 150px;
+    font-family: 'Comfortaa';
+}
+
+audio {
+    margin-top: 154px;
+    margin-left: 525px;
+}
+
+/*=========ASIDE SECTION=========*/
+aside {
+    width:30%;
+    border-right: 5px solid #fff;
+}
+
+aside h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#blog-links {
+    padding: 0;
+}
+
+.blog-link:hover {
+    background-color: #fff;    
+}
+
+.blog-link {
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.blog-link>h5>a {
+    font-size: 30px;
+}
+
+/*=====MAIN SECTION=====*/
+main {
+    width:67%;
+    padding: 0 10px;
+    height: 700px;
+}
+
+#video {
+    height: 360px;
+    width: 580px;
+}
+
+#paragraph {
+    padding-top: 23px;
+    padding-left: 450px;
+    height: 55px;
+    color: rgb(0, 0, 0)
+}
+
+p{
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.center {
+    text-align: center;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 900px 15px 900px 15px;
+}
+
+main p a {
+    color: red;
+    font-size: 18px;
+    font: bold;
+}
+
+main p a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#main-content-paragraph {
+    display: inline-block;
+}
+
+img {
+    float: left;
+    margin: 40px 0 0 0;
+    height: 300px;
+    padding: 0 20px 0 0;
+}
+
+.narrows {
+    padding-top: 140px
+}
+
+#water {
+    padding: 576px 25px 0 25px;
+    margin-right: 440px
+}
+
+iframe {
+    height: 300px;
+    width: 900px;
+}
+
+/*============FOOTER SECTION============*/
+footer {
+    height: 150px;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 4px solid #fff;
+    text-align: center;
+}
+
+a .fa {
+    color: #fff;
+    padding: 20px;
+}
+
+#copyright {
+    color: #fff;
+    background-color: #e40007;
+    margin-right: 20px;
+}
